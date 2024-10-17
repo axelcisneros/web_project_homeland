@@ -41,7 +41,7 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .main {
     max-width: 290px;
-    margin: 64px 16px;
+    margin: 16px;
   }
 
   .main__title {
@@ -57,7 +57,7 @@
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   .main {
     max-width: 720px;
-    margin: 90px 24px 88px;
+    margin: 90px 24px 64px;
   }
 
   .main__title {
