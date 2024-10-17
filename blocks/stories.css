@@ -1,3 +1,41 @@
+.stories {
+  max-width: 990px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 80px;
+  margin: auto;
+}
+
+.stories__content {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr) 50px;
+  grid-gap: 48px;
+}
+
+.stories__image {
+  width: 100%;
+}
+
+.stories__link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.stories__link_nft_button {
+  padding: 10px 20px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #0278fe, #003a7b 100%);
+  border-radius: 5px;
+}
+
+.stories__link_nft_button:hover {
+  background-image: linear-gradient(to right, #0278fe88, #00397bb7 100%);
+}
+
 /*@media screen and (min-width: 320px) and (max-width: 544px) {
   .gallery {
     grid-template-columns: 1fr;
