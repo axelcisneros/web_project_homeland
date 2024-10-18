@@ -12,7 +12,6 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 125px repeat(3, 1fr) 50px;
   grid-gap: 48px 40px;
-  border: 2px solid red;
 }
 
 .stories__content_row_four {
