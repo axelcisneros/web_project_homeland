@@ -17,12 +17,16 @@ Siguiendo con la creación de proyectos, esta vez es una galeria de arte donde s
 - GIT BASH
 - GITHUB
 - GITHUB PAGES
+- BRANCH
+- GRID LAYOUT
 
 ## Funsionalidad
 
 La pagina es una galeria de arte, en la que se muestran los lugares de donde provienen nuestros colegas, reunidos en la ciudad Triple Ten iniciando con la bienvenida y descripción:
 
     -Pagina inicio
+    -Sección de fotos
+    -Sección de historias
 
 ## Mejoras
 
