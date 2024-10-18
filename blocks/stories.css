@@ -14,10 +14,6 @@
   grid-gap: 48px 40px;
 }
 
-.stories__content_row_four {
-  grid-template-rows: 125px repeat(2, 1fr) 50px;
-}
-
 .stories__header {
   max-width: 460px;
   height: max-content;
@@ -46,13 +42,9 @@
   opacity: 0.5;
 }
 
-.stories__link {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-
-.stories__link_nft_button {
+.storie__button {
+  font-size: 18;
+  color: #fff;
   font-weight: 600;
   text-align: center;
   background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -62,11 +54,14 @@
   grid-row: 5;
 }
 
-.stories__link_nft_button:hover {
+.storie__button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
-.stories__link_nft_web {
+.stories__link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
   max-width: 460px;
   grid-column: span 3;
   padding-top: 12%;
@@ -116,13 +111,13 @@
     grid-row: 3;
   }
 
-  .stories__link_nft_button {
+  .storie__button {
     max-width: 320px;
     font-size: 14px;
     grid-row: 6;
   }
 
-  .stories__link_nft_web {
+  .stories__link {
     padding: 0;
     grid-column: 1;
     grid-row: 2;
@@ -161,13 +156,13 @@
     grid-row: 2 / 4;
   }
 
-  .stories__link_nft_button {
+  .storie__button {
     grid-column: 1 / 4;
     grid-row: 4;
     font-size: 14px;
   }
 
-  .stories__link_nft_web {
+  .stories__link {
     padding: 10px;
   }
 
