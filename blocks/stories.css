@@ -34,7 +34,6 @@
   max-height: 460px;
   grid-column: 1 / 4;
   grid-row: 2 / 5;
-  opacity: 1;
 }
 
 .stories__image-item {
@@ -42,8 +41,9 @@
   height: max-content;
 }
 
-.stories__image:hover {
+.stories__image-item:hover {
   opacity: 0.5;
+  box-shadow: 10px 10px 10px #0000006f;
 }
 
 .stories__link {
@@ -63,7 +63,8 @@
 }
 
 .stories__link_nft_button:hover {
-  background-image: linear-gradient(to right, #0278fe88, #00397bb7 100%);
+  opacity: 0.5;
+  box-shadow: 10px 10px 10px #0000006f;
 }
 
 .stories__link_nft_web {
