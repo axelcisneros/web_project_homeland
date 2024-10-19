@@ -1,6 +1,6 @@
 # Tripleten web_project_homeland
 
-    - https://axelcisneros.github.io/web_project_homeland/
+<https://axelcisneros.github.io/web_project_homeland/>
 
 ## Proyecto 5: Galeria de arte Triple Ten
 
